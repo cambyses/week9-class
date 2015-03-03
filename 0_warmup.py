@@ -24,7 +24,8 @@ def fibonacci(n):
   return current_value
 
 
-position = 5
+position = 7  # should yield 13
+
 value = fibonacci(position)
 
 print("At position", position, "the value is", value)
